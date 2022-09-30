@@ -1,0 +1,423 @@
+
+
+#main {
+
+}
+
+body {
+  background-image: url(img/new.png);
+  background-size: cover;
+}
+
+#Htext h2 {
+  font-size: 50px;
+}
+
+#Htext  {
+  color: white;
+  font-family: 'Odibee Sans', cursive;
+  text-align: center;
+  padding-bottom: 36%;
+  padding-top: 320px;
+  text-shadow: 3px 3px 6px #000000;
+  font-size: 50px;
+}
+
+@media (max-width: 700px) {
+  #Htext {
+    padding-top: 200px;
+  }
+  #Htext h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  #web {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  #typelogo {
+    height: 100px;
+    width: 400px;
+  }
+}
+
+p  {
+  color: white;
+  text-align: left;
+  margin-left: 20px;
+}
+
+@media (max-width: 700px) {
+  #pinfo {
+    font-size: 15px;
+  }
+}
+
+#top {
+  background-color: black;
+  padding: 15px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+.item, #info, #store {
+  color: white;
+}
+
+#bottom {
+  background-color: black;
+  padding-top: 4%;
+  color: white;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 700px) {
+  #bottom {
+    padding-top: 8%;
+    padding-left: 5%;
+  }
+}
+
+#info {
+  padding-left: 0%;
+  padding-right: 0%;
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 200px;
+
+}
+
+@media (max-width: 700px) {
+  #info {
+    margin-bottom: 100px;
+  }
+}
+
+#pinfo {
+  text-align: left;
+  padding-right: 15%;
+}
+
+#store {
+  padding-left: 10%;
+  font-family: 'Odibee Sans', cursive;
+  padding-right: 10%;
+  text-align: center;
+  font-size: 80px;
+  padding-bottom: 15px;
+  text-shadow: 3px 3px 6px #000000;
+
+}
+
+@media (max-width: 700px) {
+  #store {
+    font-size: 50px;
+    padding-bottom: 25px;
+    margin-top: 60px;
+  }
+}
+
+
+
+@media (max-width: 700px) {
+  #name {
+    font-size: 20px;
+    margin-left: 50%;
+  }
+}
+
+
+
+.item {
+  background-color: #662222;
+  border-radius: 10px;
+  font-family: 'Odibee Sans', cursive;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 30px;
+  margin-bottom: 90px;
+  box-shadow: 5px 7px 15px #000000;
+
+}
+
+@media (max-width: 700px) {
+  .item {
+    border-radius: 10px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  #I1 {
+    width: 200px;
+    height: 240px;
+  }
+}
+
+@media (max-width: 700px) {
+  #price {
+    margin-right: 5%;
+  }
+}
+
+.item p {
+ font-family: 'Roboto';
+
+}
+
+.item img {
+ border-radius: 15px;
+
+}
+
+#I1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+
+#name {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#price {
+  text-align: left;
+  margin-right: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#allIs {
+  margin-bottom: 150px;
+}
+
+#red {
+  font-size: 120px;
+}
+
+.icons {
+  margin-bottom: 15px;
+  margin-left: px;
+  text-align: center;
+
+}
+
+@media (max-width: 700px) {
+  #text {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  #name {
+
+  }
+}
+
+@media (max-width: 700px) {
+  #item p {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 700px) {
+  .icons {
+    width: 120px;
+    height: 120px;
+  }
+
+  #text2 {
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+}
+
+#icons {
+  margin-left: 0%;
+  font-family: 'Odibee Sans', cursive;
+  text-align: center;
+}
+
+.OS {
+  margin-left: 100px;
+}
+
+.IM {
+  margin-left: 50px;
+}
+
+.Tw {
+  margin-left: 25px;
+}
+
+@media (max-width: 700px) {
+  .OS {
+    margin-left: 100px;
+    margin-top: 20%;
+  }
+
+  .IM {
+    margin-left: 50px;
+  }
+
+  .Tw {
+    margin-left: 25px;
+  }
+}
+
+#contact {
+  color: white;
+  background-color: #662222;
+  font-family: 'Odibee Sans', cursive;
+  border: none;
+  padding: 20px;
+  border-radius: 20px;
+  transition-duration: 0.5s;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#contact:hover {
+  background-color: #661111;
+}
+
+#disclaim {
+  margin-right: -10%;
+}
+
+
+#OSButton {
+  color: white;
+  background-color: #00ace6;
+  border: none;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: 'Odibee Sans', cursive;
+  transition-duration: 0.5s;
+}
+
+#OSButton:hover {
+  background-color: #00accc;
+}
+
+@media (max-width: 700px) {
+  #OSButton {
+    font-size: 12px;
+    margin-top: 5%;
+    margin-bottom: 20%;
+  }
+}
+
+#twit {
+
+}
+
+
+@media (max-width: 700px) {
+  #twit {
+    width: 40px;
+    height: 40px;
+    margin-left: -20px;
+    margin-top: 0%;
+  }
+}
+
+@media (max-width: 700px) {
+  #contact {
+    margin-top: 40px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  #para {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 700px) {
+  #text {
+    font-size: 10px;
+  }
+}
+
+#toplogo {
+  margin-left: 45%;
+}
+
+.container {
+  flex-wrap: wrap;
+}
+
+
+@media (max-width: 700px) {
+  #disclaim h6 {
+    font-size: 10px;
+  }
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 700px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .pics {
+    margin: 22%;
+    align-items: center;
+  }
+
+
+}
+
+.flex-left {
+  width: 95%;
+  margin: 5px;
+  padding: 5px;
+}
+
+.flex-right {
+  width: 95%;
+  margin: 5px;
+  padding: 5px;
+}
+
+
+#squares {
+  margin-bottom: 20%;
+  background-color: #662222;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+#text {
+  font-size: 35px;
+}
+
+@media (max-width: 700px) {
+  #text {
+    font-size: 20px;
+  }
+}
