@@ -76,6 +76,8 @@ h2 {
   background-color: black;
   padding-top: 4%;
   padding-bottom: 4%;
+  padding-left: 29%;
+  padding-right: 15%;
 }
 
 
@@ -91,6 +93,17 @@ h2 {
 @media (max-width: 700px) {
   #info {
     margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 700px) {
+  #bottom img {
+    height: 40px;
+    width: 40px;
+  }
+
+  #bottom {
+    padding-left: 25%;
   }
 }
 
