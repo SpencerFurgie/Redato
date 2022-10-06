@@ -261,18 +261,20 @@ h2 {
   margin-left: 25px;
 }
 
+
+
 @media (max-width: 700px) {
   .OS {
-    margin-left: 100px;
+    margin-left: 0px;
     margin-top: 20%;
   }
 
   .IM {
-    margin-left: 50px;
+    margin-left: 0px;
   }
 
   .Tw {
-    margin-left: 25px;
+    margin-left: 0px;
   }
 }
 
