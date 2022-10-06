@@ -28,7 +28,7 @@ body {
     padding-top: 200px;
   }
   #Htext h2 {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
@@ -118,7 +118,7 @@ h2 {
 
 @media (max-width: 700px) {
   #store {
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: 25px;
     margin-top: 60px;
   }
@@ -317,7 +317,7 @@ h2 {
 
 @media (max-width: 700px) {
   #OSButton {
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 5%;
     margin-bottom: 20%;
   }
@@ -384,7 +384,7 @@ h2 {
 
 @media (max-width: 700px) {
   .pics {
-    margin: 15%;
+    margin: 10%;
     align-items: center;
   }
 
