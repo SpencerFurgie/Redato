@@ -265,16 +265,15 @@ h2 {
 
 @media (max-width: 700px) {
   .OS {
-    margin-left: 0px;
-    margin-top: 20%;
+    margin-left: 50px;
   }
 
   .IM {
-    margin-left: 0px;
+    margin-left: 25px;
   }
 
   .Tw {
-    margin-left: 0px;
+    margin-left: 12px;
   }
 }
 
