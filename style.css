@@ -117,7 +117,7 @@ body {
         color: white;
         padding: 2%;
         border-radius: 5px;
-        margin-right: 70%;
+        margin-right: 50%;
       }
 
       #OctDisc {
@@ -353,8 +353,8 @@ body {
       }
 
       .icons {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
       }
 
       #AllIcons {
@@ -426,7 +426,7 @@ body {
       }
 
       #store {
-        font-size: 45px;
+        font-size: 35px;
         padding-bottom: 25px;
         margin-top: 40%;
       }
