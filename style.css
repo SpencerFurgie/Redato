@@ -42,7 +42,7 @@ body {
         padding-right: 0%;
         text-align: left;
         font-size: 20px;
-        margin-bottom: 200px;
+        margin-bottom: 20%;
 
       }
 
@@ -123,7 +123,8 @@ body {
       #OctDisc {
         margin-top: 2%;
         margin-left: 0%;
-        padding-right: 50%;
+        padding-right: 35%;
+        font-size: 20px;
         color: white;
       }
 
@@ -358,7 +359,6 @@ body {
       }
 
       #AllIcons {
-        margin-left: 5%;
         margin-bottom: 20%;
       }
 
@@ -378,7 +378,8 @@ body {
   /* News */
 
       #bigNews {
-        margin: 8%;
+        margin-bottom: 5%;
+        margin-top: 5%;
       }
 
       #MainNewsTitle {
