@@ -1,13 +1,10 @@
 
 /* Main Page */
 
-html {
-  overflow-x: hidden;
-}
-
 body {
   background-image: url(img/new.png);
   background-size: cover;
+  overflow-x: hidden;
 }
 
 /*
@@ -61,7 +58,7 @@ body {
 
       .icons {
         margin-bottom: 15px;
-        margin-left: px;
+        margin-left: 5%;
         text-align: center;
 
       }
@@ -70,6 +67,7 @@ body {
         font-size: 35px;
         margin-left: 10%;
         color: white;
+        text-align: center;
       }
 
       #OSButton {
@@ -114,6 +112,10 @@ body {
         margin-bottom: 20%;
       }
 
+      #bigNews p {
+        font-weight: bold;
+      }
+
       #MainNewsTitle {
         font-size: 70px;
         margin-left: 0%;
@@ -121,7 +123,7 @@ body {
         color: white;
         padding: 2%;
         border-radius: 5px;
-        margin-right: 70%;
+        margin-right: 75%;
       }
 
       #OctDisc {
@@ -165,8 +167,9 @@ body {
         margin-bottom: 3%;
       }
 
-      #modPic {
-        margin-bottom: 10%;
+      #sideModalPic {
+        margin-bottom: 7%;
+        border-radius: 10px;
       }
 
       #modAllPics {
@@ -372,11 +375,12 @@ body {
 
       #AllIcons {
         margin-bottom: 20%;
+        margin-left: 3%;
       }
 
       #iconText {
         font-size: 25px;
-        margin-left: 0%;
+        margin-left: -25%;
       }
 
       #OSButton {
@@ -398,6 +402,7 @@ body {
 
       #MainNewsTitle {
         font-size: 28px;
+        margin-right: 50%;
       }
 
       #OctDisc {
@@ -470,7 +475,7 @@ body {
       }
 
       #indivPic {
-        width: 240pxem;
+        width: 240px;
       }
 
       #I1 {
