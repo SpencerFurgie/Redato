@@ -408,7 +408,7 @@ body {
       }
 
       #MainNewsTitle {
-        font-size: 40px;
+        font-size: 36px;
         margin-right: 30%;
       }
 
@@ -467,6 +467,8 @@ body {
 
       .pics {
         margin: 10%;
+        margin-left: 10%;
+        margin-right: 7%;
         align-items: center;
       }
 
