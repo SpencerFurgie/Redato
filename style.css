@@ -176,6 +176,13 @@ body {
         justify-content: center;
       }
 
+      #sideModalPic2 {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        border-radius: 10px;
+        justify-content: center;
+      }
+
       #modAllPics {
         margin-left: 5%;
       }
@@ -378,13 +385,13 @@ body {
       }
 
       #AllIcons {
-        margin-bottom: 20%;
+        margin-bottom: 17%;
         margin-left: 3%;
       }
 
       #iconText {
         font-size: 25px;
-        margin-left: -10%;
+        margin-left: -11%;
         text-align: center;
       }
 
@@ -402,14 +409,14 @@ body {
         margin-bottom: 5%;
         margin-top: 5%;
         margin-left: 10%;
-        margin-right: 8%;
+        margin-right: 6%;
         padding-top: 20%;
         padding-bottom: 20%;
       }
 
       #MainNewsTitle {
         font-size: 36px;
-        margin-right: 30%;
+        margin-right: 20%;
       }
 
       #OctDisc {
@@ -468,7 +475,7 @@ body {
       .pics {
         margin: 10%;
         margin-left: 10%;
-        margin-right: 7%;
+        margin-right: 6%;
         align-items: center;
       }
 
