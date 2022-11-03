@@ -150,6 +150,7 @@ body {
         font-size: 60px;
         text-align: center;
         margin-bottom: 7%;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
       }
 
       #modInBod {
@@ -168,6 +169,7 @@ body {
       .subHead {
         font-size: 35px;
         margin-bottom: 3%;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
       }
 
       #sideModalPic {
@@ -210,6 +212,11 @@ body {
         margin-left: 2%;
         margin-top: 2%;
         margin-bottom: 2%;
+      }
+
+      #innerBod p, #innerBod ol {
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+
       }
 
   /*
@@ -386,12 +393,12 @@ body {
 
       #AllIcons {
         margin-bottom: 17%;
-        margin-left: 3%;
+        margin-left: 0%;
       }
 
       #iconText {
         font-size: 25px;
-        margin-left: -11%;
+        margin-left: -13%;
         text-align: center;
       }
 
@@ -409,7 +416,7 @@ body {
         margin-bottom: 5%;
         margin-top: 5%;
         margin-left: 10%;
-        margin-right: 6%;
+        margin-right: 5%;
         padding-top: 20%;
         padding-bottom: 20%;
       }
@@ -464,7 +471,8 @@ body {
       }
 
       #innerBod p {
-        font-size: 11px;
+        font-size: 12px;
+
       }
 
 
@@ -499,7 +507,7 @@ body {
       }
 
       #indivPic {
-        width: 240px;
+        width: 250px;
       }
 
       #price {
