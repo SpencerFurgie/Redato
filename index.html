@@ -4,7 +4,9 @@
   <title>Redato</title>
   <link rel="stylesheet" href="style.css">
   <script src="scripts.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+  <link rel="icon" href="img/logo.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +15,23 @@
 </head>
 
 <body>
+
+  <!--
+
+  <script>
+
+  $.get('https://opensea.io/assets/ethereum/0x684e4ed51d350b4d76a3a07864df572d24e6dc4c/3000', function(html) {
+
+    // Loop through elements you want to scrape content from
+    $(html).find(".Property--type").each(function() {
+
+      alert($(this).text());
+
+    });
+
+  });
+
+</script> -->
 
 
 <div class="container">
@@ -64,11 +83,124 @@
     </div>
   </div>
 
+  <div class="" id="SekaiofDay">
+
+    <div class="row">
+      <div class="col">
+        <h1 id="tokenNum">#3052</h1>
+      </div>
+      <div class="col">
+        <h1 id="SekaiHead">Sekai of the Day</h1>
+      </div>
+
+    </div>
+
+
+    <div class="flex-container">
+
+      <div class="flex-container">
+        <div class="col" id="SekaiLeft">
+
+          <div class="out">
+            <a href="https://opensea.io/assets/ethereum/0x684e4ed51d350b4d76a3a07864df572d24e6dc4c/3052" target="_blank"><img width="350px" src="https://i.seadn.io/gae/XGoFnkEJblB96m6sxcbqAbrtdpZzD1suV2C9tC-ZkjUGuHlQOVrvpv4GQOPxo51m_Y_IsbAb-hrOYaPUNb45hA5Ih4_gPZvcltYA?auto=format&w=1000" class="SS" id="SekaiShot">
+            <a href="https://opensea.io/assets/ethereum/0x684e4ed51d350b4d76a3a07864df572d24e6dc4c/3052" target="_blank">
+              <div class="in">
+                <div class="Ttext">OpenSea</div>
+                <img class="OSHov" width="50px" src="img/OS.png" alt="">
+              </div>
+            </a>
+          </div>
+
+
+        </div>
+
+        <div class="flex-container">
+
+        </div>
+        <div class="col" id="T1">
+
+          <div class="trait">
+
+            <p class="Tname">Faction</p>
+            <p class="Tvalue">Mech</p>
+            <p class="Trarity">6% have this trait</p>
+
+          </div>
+
+          <div class="trait">
+
+            <p class="Tname">Background</p>
+            <p class="Tvalue">Flamingo Pink</p>
+            <p class="Trarity">4% have this trait</p>
+
+          </div>
+
+
+        </div>
+        <div class="col" id="T2">
+
+          <div class="trait">
+
+            <p class="Tname">Eyes</p>
+            <p class="Tvalue">Default</p>
+            <p class="Trarity">2% have this trait</p>
+
+          </div>
+
+          <div class="trait">
+
+            <p class="Tname">Iris</p>
+            <p class="Tvalue">Yellow</p>
+            <p class="Trarity">2% have this trait</p>
+
+          </div>
+
+
+
+        </div>
+        <div class="col" id="T3">
+
+          <div class="trait">
+
+            <p class="Tname">Hair</p>
+            <p class="Tvalue">High School</p>
+            <p class="Trarity">1% have this trait</p>
+
+          </div>
+
+          <div class="trait">
+
+            <p class="Tname">Outfit</p>
+            <p class="Tvalue">Oversized Hoodie</p>
+            <p class="Trarity">1% have this trait</p>
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
   <div id="bigNews">
+
+    <h5 class="card-title" id="MainNewsTitle">November News</h5>
+    <p id="OctDisc" class="card-text">In our first edition of Sekai News, we cover faction wars, legendary card reveals, and what the team has planned for the next couple of months.</p>
+    <button id="ReadMore" type="button" class="btn btn-primary" data-toggle="modal" href="#exampleModal">
+      READ MORE
+    </button>
+
+  </div>
+
+  <div id="bigNews2MOB">
 
     <h5 class="card-title" id="MainNewsTitle">October News</h5>
     <p id="OctDisc" class="card-text">In our first edition of Sekai News, we cover faction wars, legendary card reveals, and what the team has planned for the next couple of months.</p>
-    <button id="ReadMore" type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">
+    <button id="ReadMore" type="button" class="btn btn-primary" data-toggle="modal" href="#exampleModal2">
       READ MORE
     </button>
 
@@ -80,46 +212,266 @@
     <div class="modal-dialog modal-lg" role="document" id="modOutBod">
       <div class="modal-content" id="modInBod">
         <div class="modal-body" id="innerBod">
-          <h5 id="modHead">October News</h5>
+          <h5 id="modHead">Nov News</h5>
+
+          <div class="sec">
+
+            <p>November was about building without a doubt, and while assembling a company behind the scens, the team at Isekai Meta has kept us busy, entertained and excited.</p>
+
+            <h6 class="subHead">Faction Wars Rewards 11/5</h6>
+
+            <div class="row">
+
+
+                <p>Rewards for Faction ars became available on 11/5, and came in three tiers</p>
+
+                <p>Sekai Shards were rewarded to all paeticpants of the Faction Wars (we're assuming everyone who claimed a faction)</p>
+
+                <p>Sekai Coins were rewarded to winners of the War (The Beasts as well as MVPs)</p>
+
+                <p>Along with these token, Frankie described an econimy in which these coins and shards can be used to purchase unlockables for our Sekais. While not on-chain initially, they could be in the future.</p>
+
+
+                  <div class="row" id="sideModalPic">
+
+                    <div class="col">
+
+                      <img id="sideModalPic" src="img/shard.gif" alt="" width="80%">
+
+                    </div>
+
+                    <div class="col">
+
+                      <img id="sideModalPic" src="img/coin.gif" alt="" width="80%">
+
+                    </div>
+
+                    <div class="col">
+
+                      <img id="sideModalPic" src="img/Chest.png" alt="" width="80%">
+
+                    </div>
+
+
+
+                  </div>
+
+
+              </div>
+
+          </div>
+
+          <div class="sec">
+
+            <h6 class="subHead">Hallow's Eve Contests 10/31 - 11/5</h6>
+
+            <div class="row">
+
+
+
+                  <p>Near the end of October, the team announced two separate spooky contests, the carving and custome contests! Over the week Sekais submitted thier spookiest styles and art, all with hopes of coming out on top.</p>
+
+
+
+                  <img id="sideModalPic" src="img/HallowsBG.jpeg" alt="" width="80%">
+
+
+
+              </div>
+
+          </div>
+
+          <div class="sec">
+
+            <h6 class="subHead">Isekai Bot Updates 11/6</h6>
+
+            <div class="row">
+
+
+
+                <img id="sideModalPic" src="img/HallowsBG.jpeg" alt="" width="80%">
+
+
+                <p>The Discord chat bot was updated to incliude 3 new commands:</p>
+
+                <ul>
+                  <li>!random/<li>
+                  <li>!random/<li>
+                  <li>!random/<li>
+                </ul>
+
+
+              </div>
+
+          </div>
 
           <div class="sec">
 
             <div class="row">
 
-                <h6 class="subHead">Faction Wars</h6>
+                <h6 class="subHead">Isekai Radio 11/15</h6>
 
-                  <p>
-                    Faction Wars were an exciting attempt at a series of Discord minigames, puzzles and challenges. It brought community members together in the form of 9 different factions - with a twist! Humans had the ability to pledge their allegiance to any faction, and owners of multiple tokens had the choice of multiple factions. This was the first real token mechanic we have seen from the team on their website, and it had a unique experience for each faction.
-                    The main component of the war was the Sekai Hunt, and brought these new-found groups together to earn points for an unknown prize. Each day was made up of a challenge that unlocked a riddle upon completion. The first team to complete the riddle earned 100 points, followed by the second team at 90 points, and so on. Each quest was also worth 20 points and could be completed at any time.
-                  </p>
-                  <img id="sideModalPic2" src="img/hunt.png" width="90%" alt="">
-                  <p>
-                    These challenges kept us busy and ultimately led to a really fun environment in Discord. Here are the final point toals from the Sekai Hunt:
-                  </p>
+                <img id="sideModalPic" src="img/Radio.jpeg" alt="" width="80%">
 
-                  <p>
+                <p>Isekai Radio recieved a huge upgrade this month</p>
 
-                    <ol>
-                      <li>Beasts: 963 points</li>
-                      <li>Demons: 844 points</li>
-                      <li>Puppets: 794 points</li>
-                      <li>Humans: 755 points</li>
-                      <li>Jellies: 714 points</li>
-                      <li>Mechs: 628 points</li>
-                      <li>Angels: 474 points</li>
-                      <li>Zombies: 452 points</li>
-                      <li>Dragons: 275 points</li>
-                    </ol>
 
-                  </p>
 
-                  <p>
+              </div>
 
-                    Ultimately the Beasts came out on top , followed by Demons and Puppets. Each faction also elected a Leader and a MVP based on performance. Near the end of Faction War, it was tocuhed on by the team that three separate new tokens would be awarded to different "winners" from the war. The contents/utility of the tokens are yet to be known.
+          </div>
 
-                  </p>
+          <div class="sec">
 
-                  <p>This event was paired with its own set of lore and art which accompanied our challenges. We have yet to see the effects of the war on the story, but we have heard that our efforts may have changed the course of history!</p>
+            <h6 class="subHead">Backgrounds 11/9</h6>
+
+            <p>Isekai Radio recieved a huge upgrade this month</p>
+
+            <div class="row">
+
+
+                <div class="col">
+
+                  <img id="sideModalPic" src="img/BG1.jpeg" alt="" width="80%">
+
+                  <img id="sideModalPic" src="img/BG2.jpeg" alt="" width="80%">
+
+                  <img id="sideModalPic" src="img/BG3.jpeg" alt="" width="80%">
+
+                  <img id="sideModalPic" src="img/BG7.jpeg" alt="" width="80%">
+
+                </div>
+
+                <div class="col">
+
+                  <img id="sideModalPic" src="img/BG4.jpeg" alt="" width="80%">
+
+                  <img id="sideModalPic" src="img/BG5.jpeg" alt="" width="80%">
+
+                  <img id="sideModalPic" src="img/BG6.jpeg" alt="" width="80%">
+
+                  <img id="sideModalPic" src="img/BG8.jpeg" alt="" width="80%">
+
+                </div>
+
+
+              </div>
+
+          </div>
+
+          <div class="sec">
+
+            <div class="row">
+
+                <h6 class="subHead">Card Game 11/15</h6>
+
+                <p>We all dream of playing an Isekai Meta card game, but this month Wesley made this a reality online. Intoducing Ascend: Faction Wars - his digital card game that uses characters and themes from the collection. Play today at this link.</p>
+
+
+                <img id="sideModalPic" src="img/CardGame.jpeg" alt="" width="80%">
+                <img id="sideModalPic" src="img/Ascend.jpeg" alt="" width="80%">
+
+              </div>
+
+          </div>
+
+          <div class="sec">
+
+            <h6 class="subHead">Isekai Weekly 11/20</h6>
+
+            <p>The team introduced a new method of relaying news with a fun stylzed "newspaper" overlay</p>
+
+            <img id="ModeIMG" src="img/News.jpeg" alt="" width="40%">
+
+
+
+          </div>
+
+          <div class="sec">
+
+            <h6 class="subHead">Tunami Teaser</h6>
+
+              <p>We're not sure what the future holds for Isekai Meta - but there is so much potential. In Town Halls and discussions, the Team has discussed fleshing out the trading card collection, as well as launching the long-teased "Gallery" and "Store" on their website. The team has also been hard at working legally filing IP rights and finding a talented animation team. We can't wait to see how Studio Sekai grows!</p>
+              <img id="ModeIMG" src="img/Tunami.jpeg" alt="" width="80%">
+
+
+          </div>
+
+          <div class="sec">
+
+            <div class="row">
+
+                <h6 class="subHead">Hallows Contest</h6>
+
+                <p>We're not sure what the future holds for Isekai Meta - but there is so much potential. In Town Halls and discussions, the Team has discussed fleshing out the trading card collection, as well as launching the long-teased "Gallery" and "Store" on their website. The team has also been hard at working legally filing IP rights and finding a talented animation team. We can't wait to see how Studio Sekai grows!</p>
+
+
+                  <div class="row" id="sideModalPic">
+
+                    <div class="col">
+
+                      <img id="ModeIMG" src="img/Rosie.jpeg" alt="" width="80%">
+
+                    </div>
+
+                    <div class="col">
+
+                      <img id="ModeIMG" src="img/Pjessup.jpeg" alt="" width="80%">
+
+                    </div>
+
+                  </div>
+
+
+              </div>
+
+          </div>
+
+          <div class="sec">
+
+            <div class="row">
+
+                <h6 class="subHead">Studio Sekai Office</h6>
+
+                <p>We're not sure what the future holds for Isekai Meta - but there is so much potential. In Town Halls and discussions, the Team has discussed fleshing out the trading card collection, as well as launching the long-teased "Gallery" and "Store" on their website. The team has also been hard at working legally filing IP rights and finding a talented animation team. We can't wait to see how Studio Sekai grows!</p>
+
+                  <div class="row" id="sideModalPic">
+
+                    <img id="sideModalPic" src="img/Office1.jpeg" alt="" width="80%">
+
+                  </div>
+
+
+              </div>
+
+          </div>
+
+          <div class="sec">
+
+            <div class="row">
+
+                <h6 class="subHead">Careers</h6>
+
+                <p>We're not sure what the future holds for Isekai Meta - but there is so much potential. In Town Halls and discussions, the Team has discussed fleshing out the trading card collection, as well as launching the long-teased "Gallery" and "Store" on their website. The team has also been hard at working legally filing IP rights and finding a talented animation team. We can't wait to see how Studio Sekai grows!</p>
+
+                  <div class="row" id="sideModalPic">
+
+                    <img id="sideModalPic" src="img/Hiring1.jpeg" alt="" width="80%">
+
+                  </div>
+
+
+              </div>
+
+          </div>
+
+          <div class="sec">
+
+            <div class="row">
+
+                <h6 class="subHead">Isekai Alpha</h6>
+
+                <p>We're not sure what the future holds for Isekai Meta - but there is so much potential. In Town Halls and discussions, the Team has discussed fleshing out the trading card collection, as well as launching the long-teased "Gallery" and "Store" on their website. The team has also been hard at working legally filing IP rights and finding a talented animation team. We can't wait to see how Studio Sekai grows!</p>
 
                   <div class="row" id="sideModalPic">
 
@@ -127,82 +479,8 @@
 
                   </div>
 
-                  <div class="row" id="sideModalPic">
-
-                    <img id="sideModalPic" src="img/2.jpeg" alt="" width="80%">
-
-                  </div>
-
-                  <div class="row" id="sideModalPic">
-
-                    <img id="sideModalPic" src="img/FW3.jpeg" alt="" width="80%">
-
-                  </div>
-
-                  <div class="row" id="sideModalPic">
-
-                    <img id="sideModalPic" src="img/FW4.jpeg" alt="" width="80%">
-
-                  </div>
-
-                  <div class="row" id="sideModalPic">
-
-                    <img id="sideModalPic" src="img/FW5.jpeg" alt="" width="80%">
-
-                  </div>
-
-                  <div class="row" id="sideModalPic">
-
-                    <img id="sideModalPic" src="img/FWEnd.jpeg" alt="" width="80%">
-
-                  </div>
 
               </div>
-
-          </div>
-
-          <div class="sec">
-
-            <h6 class="subHead">Legendary Reveals</h6>
-
-              <p>Over the course of October, the team revealed over 40 unique Legendary Tokens, each with incredible art and some with music to match. These cards not only got us excited, but kept the community busy throughout October. They also introduced several new characters, factions and sets, all of which you can see here.</p>
-
-              <p><a style="color:white; font-weight: bold;" target="_blank" href="https://twitter.com/Jax_Redato/status/1587108033909252096">Here</a> is a link to our deep-dive on these cards on Twitter.</p>
-              <div class="row">
-
-                <img id="ModeIMG" src="img/1.png" alt="" width="40%">
-                <img id="ModeIMG" src="img/2.png" alt="" width="40%">
-
-              </div>
-
-              <div class="row">
-
-                <img id="ModeIMG" src="img/3.png" alt="" width="40%">
-                <img id="ModeIMG" src="img/4.png" alt="" width="40%">
-
-              </div>
-
-              <div class="row">
-
-                <img id="ModeIMG" src="img/5.png" alt="" width="40%">
-                <img id="ModeIMG" src="img/6.png" alt="" width="40%">
-
-              </div>
-
-              <div class="row">
-
-                <img id="ModeIMG" src="img/7.png" alt="" width="40%">
-                <img id="ModeIMG" src="img/8.png" alt="" width="40%">
-
-              </div>
-
-          </div>
-
-          <div class="sec">
-
-            <h6 class="subHead">The Future</h6>
-
-              <p>We're not sure what the future holds for Isekai Meta - but there is so much potential. In Town Halls and discussions, the Team has discussed fleshing out the trading card collection, as well as launching the long-teased "Gallery" and "Store" on their website. The team has also been hard at working legally filing IP rights and finding a talented animation team. We can't wait to see how Studio Sekai grows!</p>
 
           </div>
 
@@ -214,56 +492,188 @@
     </div>
   </div>
 
-<!--
   <div class="row" id="OldNews">
 
-    <div class="col">
+    <div class="col" id="oldLeft">
 
       <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="img/testBG.jpeg" alt="Card image cap">
+      <img class="card-img-top" src="img/hands.jpeg" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">October</h5>
+        <p class="card-text">In our first edition of Sekai News, we cover faction wars, legendary card reveals, and what the team has planned for the next couple of months.</p>
+        <button id="ReadMore" type="button" class="btn btn-primary" data-toggle="modal" href="#exampleModal2">
+          READ MORE
+        </button>
       </div>
 
     </div>
 
     </div>
 
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document" id="modOutBod">
+        <div class="modal-content" id="modInBod">
+          <div class="modal-body" id="innerBod">
+            <h5 id="modHead">October News</h5>
+
+            <div class="sec">
+
+              <div class="row">
+
+                  <h6 class="subHead">Faction Wars</h6>
+
+                    <p>
+                      Faction Wars were an exciting attempt at a series of Discord minigames, puzzles and challenges. It brought community members together in the form of 9 different factions - with a twist! Humans had the ability to pledge their allegiance to any faction, and owners of multiple tokens had the choice of multiple factions. This was the first real token mechanic we have seen from the team on their website, and it had a unique experience for each faction.
+                      The main component of the war was the Sekai Hunt, and brought these new-found groups together to earn points for an unknown prize. Each day was made up of a challenge that unlocked a riddle upon completion. The first team to complete the riddle earned 100 points, followed by the second team at 90 points, and so on. Each quest was also worth 20 points and could be completed at any time.
+                    </p>
+                    <img id="sideModalPic2" src="img/hunt.png" width="90%" alt="">
+                    <p>
+                      These challenges kept us busy and ultimately led to a really fun environment in Discord. Here are the final point toals from the Sekai Hunt:
+                    </p>
+
+                    <p>
+
+                      <ol>
+                        <li>Beasts: 963 points</li>
+                        <li>Demons: 844 points</li>
+                        <li>Puppets: 794 points</li>
+                        <li>Humans: 755 points</li>
+                        <li>Jellies: 714 points</li>
+                        <li>Mechs: 628 points</li>
+                        <li>Angels: 474 points</li>
+                        <li>Zombies: 452 points</li>
+                        <li>Dragons: 275 points</li>
+                      </ol>
+
+                    </p>
+
+                    <p>
+
+                      Ultimately the Beasts came out on top , followed by Demons and Puppets. Each faction also elected a Leader and a MVP based on performance. Near the end of Faction War, it was tocuhed on by the team that three separate new tokens would be awarded to different "winners" from the war. The contents/utility of the tokens are yet to be known.
+
+                    </p>
+
+                    <p>This event was paired with its own set of lore and art which accompanied our challenges. We have yet to see the effects of the war on the story, but we have heard that our efforts may have changed the course of history!</p>
+
+                    <div class="row" id="sideModalPic">
+
+                      <img id="sideModalPic" src="img/start.png" alt="" width="80%">
+
+                    </div>
+
+                    <div class="row" id="sideModalPic">
+
+                      <img id="sideModalPic" src="img/2.jpeg" alt="" width="80%">
+
+                    </div>
+
+                    <div class="row" id="sideModalPic">
+
+                      <img id="sideModalPic" src="img/FW3.jpeg" alt="" width="80%">
+
+                    </div>
+
+                    <div class="row" id="sideModalPic">
+
+                      <img id="sideModalPic" src="img/FW4.jpeg" alt="" width="80%">
+
+                    </div>
+
+                    <div class="row" id="sideModalPic">
+
+                      <img id="sideModalPic" src="img/FW5.jpeg" alt="" width="80%">
+
+                    </div>
+
+                    <div class="row" id="sideModalPic">
+
+                      <img id="sideModalPic" src="img/FWEnd.jpeg" alt="" width="80%">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="sec">
+
+              <h6 class="subHead">Legendary Reveals</h6>
+
+                <p>Over the course of October, the team revealed over 40 unique Legendary Tokens, each with incredible art and some with music to match. These cards not only got us excited, but kept the community busy throughout October. They also introduced several new characters, factions and sets, all of which you can see here.</p>
+
+                <p><a style="color:white; font-weight: bold;" target="_blank" href="https://twitter.com/Jax_Redato/status/1587108033909252096">Here</a> is a link to our deep-dive on these cards on Twitter.</p>
+                <div class="row">
+
+                  <img id="ModeIMG" src="img/1.png" alt="" width="40%">
+                  <img id="ModeIMG" src="img/2.png" alt="" width="40%">
+
+                </div>
+
+                <div class="row">
+
+                  <img id="ModeIMG" src="img/3.png" alt="" width="40%">
+                  <img id="ModeIMG" src="img/4.png" alt="" width="40%">
+
+                </div>
+
+                <div class="row">
+
+                  <img id="ModeIMG" src="img/5.png" alt="" width="40%">
+                  <img id="ModeIMG" src="img/6.png" alt="" width="40%">
+
+                </div>
+
+                <div class="row">
+
+                  <img id="ModeIMG" src="img/7.png" alt="" width="40%">
+                  <img id="ModeIMG" src="img/8.png" alt="" width="40%">
+
+                </div>
+
+            </div>
+
+            <div class="sec">
+
+              <h6 class="subHead">The Future</h6>
+
+                <p>We're not sure what the future holds for Isekai Meta - but there is so much potential. In Town Halls and discussions, the Team has discussed fleshing out the trading card collection, as well as launching the long-teased "Gallery" and "Store" on their website. The team has also been hard at working legally filing IP rights and finding a talented animation team. We can't wait to see how Studio Sekai grows!</p>
+
+            </div>
+
+            <button id="closeBut" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
     <div class="col">
 
-      <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="img/testBG.jpeg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
+    <!--
 
-    </div>
+
+
+    -->
 
     </div>
 
     <div class="col">
 
-      <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="img/testBG.jpeg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
+      <!--
 
-    </div>
+
+
+      -->
 
   </div>
 
   </div>
 
--->
 
 
+  <!--
   <div class="pics">
 
     <div class="row">
@@ -297,6 +707,7 @@
   </div>
 
   </div>
+-->
 
 </div>
 
@@ -316,6 +727,12 @@
         <a href="https://twitter.com/Jax_Redato" target="_blank"><img id="TWicon" src="img/twiiter.png" alt="" width="50px" height="50px"></a>
 
       </div>
+
+  </div>
+
+  <div class="row" id="bottom2">
+
+    <h5 id="version">Redato.xyz version 1.2.1</h5>
 
   </div>
 

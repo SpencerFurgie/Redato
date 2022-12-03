@@ -89,6 +89,143 @@ body {
   /*
   */
 
+  /* Sekai */
+
+      #SekaiofDay {
+
+        background-image: url(img/panels.png);
+        background-size: cover;
+        background-position: center;
+        padding: 10%;
+        padding-left: 30%;
+        padding-right: 30%;
+        margin-right: -28%;
+        margin-left: -28%;
+        margin-bottom: 20%;
+
+      }
+
+      #SekaiHead {
+        text-align: right;
+        margin-right: 36%;
+        margin-bottom: 4%;
+        color: white;
+        text-shadow: 2px 2px 8px #000000;
+        font-size: 60px;
+
+      }
+
+      #tokenNum {
+        color: white;
+        font-size: 50px;
+        margin-bottom: 4%;
+        font-weight: bold;
+        text-shadow: 2px 2px 8px #000000;
+      }
+
+      #SekaiShot {
+
+        border-radius: 10px;
+        margin-bottom: 5%;
+        box-shadow: 2px 2px 8px #000000;
+
+      }
+
+
+        .SS {
+
+          width: 165%;
+
+        }
+
+        .in {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 50;
+          height: 95%;
+          width: 144%;
+          opacity: 0;
+          border-radius: 10px;
+          transition: .5s ease;
+          background-color: #008CBA;
+        }
+
+        .out:hover .in {
+          opacity: 1;
+        }
+
+        .Ttext {
+          color: white;
+          font-size: 40px;
+          position: absolute;
+          top: 65%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+
+        .OSHov {
+
+          position: absolute;
+          top: 45%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+
+        }
+
+
+
+      #SekaiLeft {
+        margin-right: 15%;
+      }
+
+      .trait {
+
+        background-color: white;
+        border-radius: 5px;
+        text-align: center;
+        padding: 5%;
+        margin-bottom: 8%;
+        padding-top: 12%;
+        padding-bottom: 7%;
+        box-shadow: 2px 2px 8px #000000;
+
+
+      }
+
+      .Tname {
+
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+
+      }
+
+      .Tvalue {
+
+        color: black;
+        font-size: 17px;
+
+
+      }
+
+      .Trarity {
+
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
+
+      }
+
+  /*
+  */
+
   /* News */
 
       #ReadMore:hover {
@@ -109,7 +246,15 @@ body {
       }
 
       #bigNews {
-        margin-bottom: 20%;
+        margin-bottom: 10%;
+        background-image: url(https://www.isekaimeta.com/_next/image?url=%2Fassets%2Fmuseum%2Faswang.webp&w=3840&q=100);
+        background-size: cover;
+        padding: 10%;
+        border-radius: 10px;
+      }
+
+      #bigNews2MOB {
+        margin-bottom: 10%;
         background-image: url(img/hands.jpeg);
         background-size: cover;
         padding: 10%;
@@ -204,7 +349,7 @@ body {
       }
 
       #OldNews {
-        margin-bottom: 15%;
+        margin-bottom: 20%;
       }
 
       #ModeIMG {
@@ -217,6 +362,10 @@ body {
       #innerBod p, #innerBod ol {
         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 
+      }
+
+      #bigNews2MOB {
+        display: none;
       }
 
   /*
@@ -308,6 +457,12 @@ body {
 
   /* Footer */
 
+  #version {
+    color: white;
+    font-size: 12px;
+    margin-left: -24%;
+  }
+
   #bottom {
     background-color: black;
     padding-top: 4%;
@@ -316,13 +471,19 @@ body {
     padding-right: 15%;
   }
 
+  #bottom2 {
+    background-color: black;
+    padding-bottom: 1%;
+    padding-left: 22%;
+  }
+
   /*
   */
 
 
 
 
-.item, .subHead, #modHead, #closeBut, #store, #OSButton, #Herotext, #iconText, #MainNewsTitle, #ReadMore {
+.item, .Ttext, .subHead, #SekaiHead, #modHead, #closeBut, #store, #OSButton, #Herotext, #iconText, #MainNewsTitle, #ReadMore {
     font-family: 'Odibee Sans', cursive;
 }
 
@@ -411,17 +572,172 @@ body {
       }
 
 
+  /* Sekai */
+
+      #SekaiofDay {
+
+        background-image: url();
+        background-size: cover;
+        background-position: center;
+        padding: 10%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-right: 3%;
+        margin-left: 3%;
+        margin-bottom: 100%;
+
+      }
+
+      #SekaiHead {
+        text-align: center;
+        margin-right: 0%;
+        margin-bottom: 4%;
+        color: white;
+        text-shadow: 2px 2px 8px #000000;
+        font-size: 40px;
+
+      }
+
+      #tokenNum {
+        color: white;
+        font-size: 30px;
+        margin-bottom: 4%;
+        margin-left: 10%;
+        font-weight: bold;
+        text-shadow: 2px 2px 8px #000000;
+      }
+
+      #SekaiShot {
+
+        border-radius: 10px;
+        margin-top: 0%;
+        box-shadow: 2px 2px 8px #000000;
+        width: 100%;
+
+      }
+
+
+        .SS {
+
+          width: 165%;
+
+        }
+
+        .in {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 50;
+          height: 95%;
+          width: 144%;
+          opacity: 0;
+          border-radius: 10px;
+          transition: .5s ease;
+          background-color: #008CBA;
+        }
+
+        .out:hover .in {
+          opacity: 1;
+        }
+
+        .Ttext {
+          color: white;
+          font-size: 40px;
+          position: absolute;
+          top: 65%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+
+        .OSHov {
+
+          position: absolute;
+          top: 45%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+
+        }
+
+
+
+      #SekaiLeft {
+        margin-right: 0%;
+      }
+
+      .trait {
+
+        background-color: white;
+        border-radius: 5px;
+        text-align: center;
+        padding: 5%;
+        margin-bottom: 2%;
+        padding-top: 8%;
+        padding-bottom: 6%;
+        box-shadow: 2px 2px 8px #000000;
+
+
+      }
+
+      .Tname {
+
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+
+      }
+
+      .Tvalue {
+
+        color: black;
+        font-size: 17px;
+
+
+      }
+
+      .Trarity {
+
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
+
+      }
+
+      #T1, #T2 {
+        margin-bottom: 85%;
+      }
+
+      #T1 {
+        margin-top: 100%;
+      }
+
+
 
   /* News */
 
       #bigNews {
         margin-bottom: 5%;
-        margin-top: 5%;
-        margin-left: 10%;
-        margin-right: 5%;
+        margin-top: 10%;
+        margin-left: 6%;
+        margin-right: 7%;
         padding-top: 20%;
         padding-bottom: 20%;
       }
+
+      #bigNews2MOB {
+        margin-bottom: 15%;
+        margin-top: 10%;
+        margin-left: 6%;
+        margin-right: 7%;
+        padding-top: 20%;
+        padding-bottom: 20%;
+      }
+
 
       #MainNewsTitle {
         font-size: 36px;
@@ -477,6 +793,14 @@ body {
 
       }
 
+      #OldNews {
+        display: none;
+      }
+
+      #bigNews2MOB {
+        display: block;
+      }
+
 
 
 
@@ -530,6 +854,10 @@ body {
         padding-left: 22%;
         padding-top: 10%;
         padding-bottom: 10%;
+      }
+
+      #bottom2 {
+        padding-left: 25%;
       }
 
       #twit {
