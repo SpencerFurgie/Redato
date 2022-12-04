@@ -7,6 +7,14 @@ body {
   overflow-x: hidden;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
 /*
 */
 
@@ -134,7 +142,7 @@ body {
 
         .SS {
 
-          width: 165%;
+          width: 168%;
 
         }
 
@@ -143,8 +151,8 @@ body {
           top: 0;
           bottom: 0;
           right: 50;
-          height: 95%;
-          width: 144%;
+          height: 94.5%;
+          width: 146%;
           opacity: 0;
           border-radius: 10px;
           transition: .5s ease;
@@ -619,17 +627,17 @@ body {
 
         .SS {
 
-          width: 165%;
+          width: 105%;
 
         }
 
         .in {
-          position: absolute;
-          top: 0;
-          bottom: 0;
+          position: relative;
+          top: 50;
+          bottom: 100;
           right: 50;
-          height: 95%;
-          width: 144%;
+          height: 105%;
+          width: 130%;
           opacity: 0;
           border-radius: 10px;
           transition: .5s ease;
@@ -637,14 +645,14 @@ body {
         }
 
         .out:hover .in {
-          opacity: 1;
+          opacity: 0;
         }
 
         .Ttext {
           color: white;
           font-size: 40px;
           position: absolute;
-          top: 65%;
+          top: 50%;
           left: 50%;
           -webkit-transform: translate(-50%, -50%);
           -ms-transform: translate(-50%, -50%);
@@ -654,9 +662,7 @@ body {
 
         .OSHov {
 
-          position: absolute;
-          top: 45%;
-          left: 50%;
+          left: 13%;
           -webkit-transform: translate(-50%, -50%);
           -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
