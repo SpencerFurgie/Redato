@@ -101,7 +101,7 @@ body {
 
       #SekaiofDay {
 
-        background-image: url(img/panels.png);
+        background-image: url(img/panels.jpeg);
         background-size: cover;
         background-position: center;
         padding: 10%;
@@ -126,6 +126,8 @@ body {
       #tokenNum {
         color: white;
         font-size: 50px;
+        margin-left: 4%;
+        margin-top: 5%;
         margin-bottom: 4%;
         font-weight: bold;
         text-shadow: 2px 2px 8px #000000;
@@ -602,14 +604,15 @@ body {
         margin-bottom: 4%;
         color: white;
         text-shadow: 2px 2px 8px #000000;
-        font-size: 40px;
+        font-size: 30px;
 
       }
 
       #tokenNum {
         color: white;
-        font-size: 30px;
+        font-size: 25px;
         margin-bottom: 4%;
+        margin-top: 0%;
         margin-left: 10%;
         font-weight: bold;
         text-shadow: 2px 2px 8px #000000;
@@ -715,7 +718,7 @@ body {
       }
 
       #T1, #T2 {
-        margin-bottom: 85%;
+        margin-bottom: 105%;
       }
 
       #T1 {
@@ -747,7 +750,7 @@ body {
 
       #MainNewsTitle {
         font-size: 36px;
-        margin-right: 20%;
+        margin-right: 15%;
       }
 
       #OctDisc {
