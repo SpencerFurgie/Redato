@@ -439,6 +439,24 @@ body {
         margin-left: 7%;
       }
 
+      #CareersButt {
+        color: white;
+        background-color: #bf5a1d;
+        border: none;
+        padding: 12px;
+        padding-right: 50px;
+        padding-left: 50px;
+        border-radius: 15px;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 44%;
+        transition-duration: 0.5s;
+      }
+
+      #CareersButt:hover {
+        background-color: #bf5000;
+      }
+
   /*
   */
 
@@ -554,7 +572,7 @@ body {
 
 
 
-.item, .Ttext, .subHead, .subHead2, .subHead3, #SekaiHead, #modHead, #closeBut, #store, #OSButton, #Herotext, #iconText, #MainNewsTitle, #ReadMore, #ReadMore2 {
+.item, .Ttext, .subHead, .subHead2, .subHead3, #CareersButt, #SekaiHead, #modHead, #closeBut, #store, #OSButton, #Herotext, #iconText, #MainNewsTitle, #ReadMore, #ReadMore2 {
     font-family: 'Odibee Sans', cursive;
 }
 
@@ -666,7 +684,7 @@ body {
 
       #SekaiHead {
         text-align: center;
-        margin-right: 0%;
+        margin-right: 5%;
         margin-bottom: 4%;
         color: white;
         text-shadow: 2px 2px 8px #000000;
@@ -904,7 +922,7 @@ body {
       }
 
       #botG2 {
-        margin-bottom: 14%;
+        margin-bottom: 9%;
       }
 
 
