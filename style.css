@@ -379,6 +379,7 @@ body {
         padding-top: 10px;
         padding-bottom: 10px;
         background-color: #bf5a1d;
+        border-radius: 10px;
         border: none;
         font-size: 25px;
       }
@@ -446,7 +447,7 @@ body {
         padding: 12px;
         padding-right: 50px;
         padding-left: 50px;
-        border-radius: 15px;
+        border-radius: 10px;
         font-size: 20px;
         margin-top: 20px;
         margin-left: 44%;
@@ -923,6 +924,20 @@ body {
 
       #botG2 {
         margin-bottom: 9%;
+      }
+
+      #CareersButt {
+        color: white;
+        background-color: #bf5a1d;
+        border: none;
+        padding: 12px;
+        padding-right: 35px;
+        padding-left: 35px;
+        border-radius: 10px;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 24%;
+        transition-duration: 0.5s;
       }
 
 
