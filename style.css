@@ -154,7 +154,7 @@ body {
           top: 0;
           bottom: 0;
           right: 50;
-          height: 97.5%;
+          height: 63%;
           width: 146%;
           opacity: 0;
           border-radius: 10px;
@@ -803,12 +803,12 @@ body {
       }
 
       #T1 {
-        margin-bottom: 54%;
+        margin-bottom: 148%;
         margin-top: 100%;
       }
 
       #T2  {
-        margin-bottom: 54%;
+        margin-bottom: 104%;
       }
 
       #T3  {
