@@ -154,7 +154,7 @@ body {
           top: 0;
           bottom: 0;
           right: 50;
-          height: 63%;
+          height: 94%;
           width: 146%;
           opacity: 0;
           border-radius: 10px;
@@ -240,7 +240,7 @@ body {
   /* News */
 
       #ReadMore:hover, #ReadMore2:hover {
-        background-color: #bf5a1d;
+        background-color: #6e1616;
         transition: 0.3s;
       }
 
@@ -270,13 +270,22 @@ body {
 
       #bigNews {
         margin-bottom: 10%;
-        background-image: url(https://www.isekaimeta.com/_next/image?url=%2Fassets%2Fmuseum%2Faswang.webp&w=3840&q=100);
+        background-image: url(img/homePageSnow3.webp);
         background-size: cover;
         padding: 10%;
         border-radius: 10px;
       }
 
       #bigNews2MOB {
+        margin-bottom: 10%;
+        background-image: url(https://www.isekaimeta.com/_next/image?url=%2Fassets%2Fmuseum%2Faswang.webp&w=3840&q=100);
+        background-size: cover;
+        background-position: bottom;
+        padding: 10%;
+        border-radius: 10px;
+      }
+
+      #bigNews3MOB {
         margin-bottom: 10%;
         background-image: url(img/hands.jpeg);
         background-size: cover;
@@ -288,7 +297,7 @@ body {
       #MainNewsTitle {
         font-size: 70px;
         margin-left: 0%;
-        background-color: #bf5a1d;
+        background-color: #6e1616;
         color: white;
         padding: 2%;
         border-radius: 5px;
@@ -399,12 +408,12 @@ body {
         margin-bottom: 2%;
       }
 
-      #innerBod p, #innerBod ol, .subHead2, .subHead3 {
+      #innerBod p, #innerBod ol, .subHead2, .subHead3, .subHead5 {
         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 
       }
 
-      #bigNews2MOB {
+      #bigNews2MOB, #bigNews3MOB {
         display: none;
       }
 
@@ -418,6 +427,13 @@ body {
 
       .subHead2, .subHead3 {
         font-size: 25px;
+        margin-top: 4%;
+      }
+
+      .subHead5 {
+        font-size: 24px;
+        text-align: center;
+
         margin-top: 4%;
       }
 
@@ -573,7 +589,7 @@ body {
 
 
 
-.item, .Ttext, .subHead, .subHead2, .subHead3, #CareersButt, #SekaiHead, #modHead, #closeBut, #store, #OSButton, #Herotext, #iconText, #MainNewsTitle, #ReadMore, #ReadMore2 {
+.item, .Ttext, .subHead, .subHead2, .subHead3, .subHead5, #CareersButt, #SekaiHead, #modHead, #closeBut, #store, #OSButton, #Herotext, #iconText, #MainNewsTitle, #ReadMore, #ReadMore2 {
     font-family: 'Odibee Sans', cursive;
 }
 
@@ -808,7 +824,7 @@ body {
       }
 
       #T2  {
-        margin-bottom: 104%;
+        margin-bottom: 158%;
       }
 
       #T3  {
@@ -830,6 +846,15 @@ body {
       }
 
       #bigNews2MOB {
+        margin-bottom: 30%;
+        margin-top: 10%;
+        margin-left: 6%;
+        margin-right: 7%;
+        padding-top: 20%;
+        padding-bottom: 20%;
+      }
+
+      #bigNews3MOB {
         margin-bottom: 30%;
         margin-top: 10%;
         margin-left: 6%;
@@ -901,6 +926,10 @@ body {
         display: block;
       }
 
+      #bigNews3MOB {
+        display: block;
+      }
+
       .subHead2 {
         font-size: 25px;
         margin-top: 4%;
@@ -909,6 +938,12 @@ body {
       .subHead3 {
         font-size: 18px;
         margin-top: 4%;
+      }
+
+      .subHead5 {
+        font-size: 18px;
+        margin-top: 4%;
+        text-align: center;
       }
 
       #sideModalPic2 {
